@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2025 은행연합회 사회공헌활동 보고서 숏폼 영상 기획서 · 웹 뷰어</title>
+  <meta name="description" content="2025 은행연합회 사회공헌활동 보고서 숏폼 영상 기획서 웹 뷰어" />
+  <meta name="theme-color" content="#1b2e4b" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero hero--gate">
+    <div class="hero__gate" aria-label="숏폼 선택">
+      <p class="hero__eyebrow">은행연합회 · 사회공헌 숏폼 브리프</p>
+      <h1 class="hero__title hero__title--gate" id="hero-title">2025 은행연합회 사회공헌활동 보고서 숏폼 영상 기획서</h1>
+      <div class="episode-picker" id="episode-picker" role="group" aria-label="숏폼 편 선택"></div>
+    </div>
+    <div class="hero__toolbar">
+      <button type="button" class="btn btn--ghost btn--sm" id="btn-print">인쇄 / PDF 저장</button>
+      <button type="button" class="btn btn--sm" id="btn-share">링크 복사</button>
+    </div>
+  </header>
+
+  <main class="formats formats--episodes" id="formats-root"></main>
+
+  <script src="./brief-data.js"></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
